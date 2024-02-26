@@ -43,3 +43,4 @@ def searchProduct(data):
     codigo, nombre, stock, estado, proveedor = result.values()
     stockMin, stockActual, stockMax = stock.values()
     print(f"ID: {codigo}")
+
