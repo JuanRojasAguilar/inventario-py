@@ -4,7 +4,6 @@ import json
 
 BASE="data/"
 
-
 def borrar_pantalla():
     if sys.platform == "linux" or sys.platform == "darwin":
         os.system("clear")
@@ -28,8 +27,9 @@ def checkFile(archivo:str,data):
                 'productos':{},
             }
             json.dump(data,bw,indent=4)
+            return data
 
-def createData(archivo,data):
+def createData(archivo:str,data):
     with open(BASE+archivo,"w+") as rwf:
         json.dump(data,rwf,indent=4)
 

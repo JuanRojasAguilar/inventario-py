@@ -1,6 +1,5 @@
 from tabulate import tabulate
 import modules.corefiles as cf
-import os 
 import sys
 from modules import proveedor as pv
 from modules import productos as pp
@@ -62,7 +61,6 @@ def menu_productos():
         menu_productos()
 
 def menu_proveedores():
-
     titulo = """
     +++++++++++++++
     +  PROVEEDORES  +
@@ -70,6 +68,7 @@ def menu_proveedores():
     """
     print(titulo)
     menu = [["1.", "Agregar"],["2.","Editar"],["3.", "Eliminar"],["4.","Buscar"],["5.","Salir"]]
+
     print(tabulate(menu, tablefmt="grid"))
     opcion = input("\n>> ")
     if opcion == "1":
