@@ -1,0 +1,27 @@
+{
+    "proveedores": {
+        "007": {
+            "nit": "007",
+            "nombrePro": "James Bond",
+            "tipo": "Juridica",
+            "direccion": {
+                "ciudad": "LA California",
+                "ubicacion": "Boyaca",
+                "longitud": 4.0,
+                "latitud": 5.0
+            }
+        },
+        "87": {
+            "nit": "87",
+            "nombrePro": "jjj",
+            "tipo": "hhh",
+            "direccion": {
+                "ciudad": "ttt",
+                "ubicacion": "gg",
+                "longitud": 4.0,
+                "latitud": 5.0
+            }
+        }
+    },
+    "productos": {}
+}
